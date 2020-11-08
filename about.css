@@ -1,19 +1,35 @@
-.background{
-  z-index: -99999;
-  background-color: black;
-  background-image: url('images/indexLogo.png');
-  height: 900px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
-}
 .sideIcon{
   height:50px;
   width:50px;
+  background: #ECECEC
+}
+.background{
+  background-color: #ECECEC;
+}
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  background-color: #ECECEC;
+}
+.content{
+  background-image: url("about/CLOWDS.jpg");
+  background-size: cover;
+}
+.text{
+  background-color: #ECECEC;
+  height: 60%;
+  width: 70%;
+  position: fixed;
+  top: 20%;
+  font-family: "Courier New", Courier, monospace	;
+  font-size: 20px;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  font-weight: 100;
 }
 /* The side navigation menu */
 .sidebar {
-  background-color: black;
+  background-color: #ECECEC;
   margin: 0;
   padding: 0;
   width: 200px;
@@ -28,21 +44,21 @@
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color: white;
+  color: black;
   padding: 16px;
   text-decoration: none;
 }
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: black;
+  background-color: #ECECEC;
   color: red;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
   background-color: #555;
-  color: #F15441;
+  color: #D3D3D3;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
